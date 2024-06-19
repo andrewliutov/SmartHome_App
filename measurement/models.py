@@ -1,7 +1,5 @@
 from django.db import models
 
-# TODO: опишите модели датчика (Sensor) и измерения (Measurement)
-
 
 def image_path(instance, filename):
     return '/'.join([
